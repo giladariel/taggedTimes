@@ -1,0 +1,10 @@
+createTimeline = () => {
+    let block = [];
+    for (var i; i < this.state.times; i++) {
+      block.push(<div>
+        <p>{this.state.times[i]}</p>
+        <p>{this.state.vectors[i]}</p>
+      </div>)
+    };
+    return block
+  };
